@@ -4,7 +4,7 @@ import { Box, Button, Container, Typography, Grid } from '@mui/material';
 const UnAuthorized = () => {
     const navigate = useNavigate();
 
-    const goBack = () => navigate(-1);
+    const goBack = () => navigate("/");
     return (
         <div>
             <div>
